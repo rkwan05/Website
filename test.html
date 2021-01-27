@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DaughterofLight Shop</title>
+    <style>
+        <!-- table,th,td {border: 1px solid black;} -->
+
+        #daughteroflight{
+            text-align:center;
+            font-size: 90px;
+            font-family: Georgia, Droid Serif;
+            top:50%;
+            left: 50%;
+            text-align: center;
+            margin-right: -50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            padding: 50px 10px;
+            transition: 0.6s;
+
+            }
+
+            .products {
+                position: relative;
+                margin-top:1000px;
+            }
+
+
+
+
+    </style>
+
+    <script>
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("daughteroflight").style.fontSize = "35px";
+            }
+            else {
+                document.getElementById("daughteroflight").style.fontSize = "90px";
+            }
+
+        }
+    </script>
+
+</head>
+<body style = "background-color: Linen">
+
+<div style="clear: both">
+    <h2 style ="float:left; padding:15px">Shop</h2>
+    <h2 style = "float:right; padding:15px"> About Me</h2>
+
+</div>
+
+<div id = "daughteroflight">theDaughterofLight</div>
+
+<div class = products>
+    <img src= "my hope is in the Lord.png" alt="Bucket Hat Sticker">
+
+</div>
+
+
+
+
+<!-- <u1>
+    <li>Sushi</li>
+    <li>Coding</li>
+
+</u1>
+<table style ="width:30%">
+    <tr>
+        <th>Sushi</th>
+        <th>Test</th>
+    </tr>
+    <tr>
+        <td>Lover</td>
+        <td>Marks</td>
+    </tr>
+</table>
+-->
+
+
+</body>
+</html>
+
